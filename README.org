@@ -29,3 +29,5 @@ The installation process is not automated at this time.
 - Use use-package
 
 - Rewrite code from bash to elisp
+
+Contributions are welcome!
