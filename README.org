@@ -1,0 +1,3 @@
+#+TITLE: Org-logseq
+
+A script for navigating [[http://logseq.com/][logseq]] files using emacs.
