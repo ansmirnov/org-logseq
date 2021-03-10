@@ -23,3 +23,9 @@ The installation process is not automated at this time.
 
 4. The desired page will open in another buffer (if necessary, the
    page will be created)
+
+** Development plans
+
+- Use use-package
+
+- Rewrite code from bash to elisp
