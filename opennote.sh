@@ -1,3 +1,5 @@
+#!/bin/bash
+
 A=$@
 
 line=`grep -i -r "^#+\(TITLE\|ALIAS\)" | grep -i "\(: \|, \|\[\[\)$A\($\|\]\]\)" | head -n 1 | cut -d":" -f1`
