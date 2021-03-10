@@ -1,3 +1,25 @@
 #+TITLE: Org-logseq
 
-A script for navigating [[http://logseq.com/][logseq]] files using emacs.
+A script for navigating and editing [[http://logseq.com/][logseq]] files using emacs.
+
+** Install
+
+The installation process is not automated at this time.
+
+1. Copy the =opennote.sh= file into the =~/bin/opennote.sh= directory.
+
+2. Copy the contents of the =org-logseq.el= file into your emacs
+   configuration file (or just evaluate it by pressing =C-x= =C-e=).
+
+3. Assign a key combination to call the =open-logseq= function.
+
+** Usage
+
+1. Open any file in the pages directory.
+
+2. Place the cursor on a link of the form =[[ Another Page ] ]=.
+
+3. Call the =open-logseq= function.
+
+4. The desired page will open in another buffer (if necessary, the
+   page will be created)
